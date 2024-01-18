@@ -1,0 +1,108 @@
+/* media for large device */
+@media all and (max-width:2060px) {
+    /* service section */
+    .content_box_wraper{
+        width: 80%;
+    }
+    .title-subheading {
+        width: 80%;
+    }
+}
+@media all and (max-width:1570px) {
+    /* servics section */
+    .content_box_wraper{
+        width: 90%;
+    }
+    .title-subheading {
+        width: 85%;
+    }
+}
+@media all and (max-width:1370px) {
+    /* servics section */
+    .content_box_wraper{
+        width: 100%;
+    }
+    .title-subheading {
+        width: 90%;
+    }
+} 
+
+/* media query for laptop */
+@media all and (max-width:1024px){
+    body{
+        font-size: 14px;
+    }
+    /* common heading section */
+    .title-subheading {
+        width: 96%;
+    }
+
+    /* footer */
+    .footer .footer1{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .footer .footer2,
+    .footer .footer3{
+        width: 45%;
+        justify-content: space-between;
+    }
+    .footer{
+        padding: 5em;
+    }
+}
+
+
+/* media query for tablet */
+@media all and (max-width:768px) {
+    body{
+        font-size: 12px;
+    }
+    /* banner part */
+    .innerText p{
+        width: 60%;
+    }
+
+    /* testimonial part */
+    .testimonial_card_wraper .testimonial-card{
+        flex-basis: 75%;
+    }
+    .footer{
+        padding: 4em;
+    }
+}
+
+/* media query for mobile l */
+@media all and (max-width:425px) {
+    body{
+        font-size: 10px;
+    }
+    /* servics section */
+    .content_box_wraper{
+        padding: 0 1em;
+    }
+
+    /* testimonial section */
+    .testimonial_card_wraper .testimonial-card{
+        flex-basis: 100%;
+    }
+
+    /* footer section */
+    .footer .footer1,
+    .footer .footer2,
+    .footer .footer3{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .footer{
+        padding: 2em;
+    }
+}
+
+/* extra smaill device */
+@media all and (max-width:250px) {
+    *{
+        overflow: scroll;
+    }
+}
+/* ============================================== */
